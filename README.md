@@ -149,7 +149,7 @@ like:
 }
 ```
 
-Products with a `variants` array (Lip Balm, Deo Shot) show clickable scent
+Products with a `variants` array (Lip Balm, Solid Perfume) show clickable scent
 chips that swap the photo and pre-fill the enquiry form's product field.
 
 `Rosy Earth Clay Mask` and `Sparism Essentials` currently have `price: null`

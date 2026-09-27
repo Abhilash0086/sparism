@@ -72,7 +72,7 @@ const PRODUCTS = [
   },
   {
     id: "deo-shot",
-    name: "Deo Shot",
+    name: "Solid Perfume",
     category: "Body",
     price: 200,
     size: "10g",
