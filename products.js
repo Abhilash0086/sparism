@@ -29,8 +29,8 @@ const PRODUCTS = [
     id: "dewdrop-hydrator",
     name: "Dewdrop Hydrator Moisturizer",
     category: "Face",
-    price: 220,
-    size: "50g",
+    price: 350,
+    size: "100g",
     image: "assets/products/dewdrop-hydrator.jpg",
     description:
       "A rose-infused daily moisturizer that locks in hydration for a soft, dewy glow, morning and night.",
@@ -74,18 +74,28 @@ const PRODUCTS = [
     id: "deo-shot",
     name: "Deo Shot",
     category: "Body",
-    price: 150,
-    size: null, // weight not yet confirmed — packaging format is already explained in the description below
-    image: "assets/products/deo-shot-calm-citrus.jpg",
+    price: 200,
+    size: "10g",
+    image: "assets/products/deo-shot-citrus-punch.jpg",
     description:
       "A natural solid perfume in a sleek metal sliding tin, gently scented and easy to carry — no harsh chemicals, in two signature scents.",
     variants: [
-      { label: "Calm Citrus", image: "assets/products/deo-shot-calm-citrus.jpg", swatch: "#c7b23a" },
+      { label: "Citrus Punch", image: "assets/products/deo-shot-citrus-punch.jpg", swatch: "#c7b23a" },
       { label: "Rose Silk", image: "assets/products/deo-shot-rose-silk.jpg", swatch: "#e2a0b5" },
     ],
   },
-  // Rosy Earth Clay Mask and Sparism Essentials removed — not yet live on
-  // the Wix store. Re-add once priced/finalized; see PRODUCT_IMAGE_PROMPTS.md
-  // for their photo prompts (#11 and #12) and LOGO_REDESIGN_PROMPTS.md for
-  // label assets, both already written and ready to use.
+  {
+    id: "rosy-earth-clay-mask",
+    name: "Rosy Earth Clay Mask",
+    category: "Face",
+    price: null,
+    size: "50g",
+    tag: "New",
+    image: "assets/products/rosy-earth-clay-mask.jpg",
+    description:
+      "A mineral-rich clay face mask that draws out impurities while rose extracts keep skin calm and balanced.",
+  },
+  // Sparism Essentials still removed — not yet live / details unconfirmed.
+  // See PRODUCT_IMAGE_PROMPTS.md prompt #12 and LOGO_REDESIGN_PROMPTS.md
+  // once ready to add back.
 ];
